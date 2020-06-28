@@ -20,6 +20,7 @@ div.content {
 	padding: 10px;
 	position: relative;
 	background-color: cadetblue;
+	/*height: 20%;*/
 }
 
 /*Section Styles*/
@@ -50,6 +51,8 @@ section.sec-name {
 
 /*Dummy Text Styles*/
 p.text {
+	height: 120px;
+	overflow: auto;
 	text-align: center;
 	font-family: papyrus, sans-serif;
 	font-size: 20px;
