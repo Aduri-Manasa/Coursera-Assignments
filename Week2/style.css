@@ -34,7 +34,9 @@ section.sec-name {
 	font-size: 25px;
 	font-style: italic;
 	font-weight: bold;
-	border: 1px solid #000;
+	border-width: 0px 0px 1px 1px;
+	border-color: #000;
+	border-style: solid;
 }
 
 .title1 {
