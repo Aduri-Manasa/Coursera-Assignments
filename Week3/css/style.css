@@ -1,0 +1,28 @@
+body {
+	font-size: 16px;
+	background-color: #000;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #ef5c5c;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-brand h1 {
+	font-family: Papyrus, sans-serif;
+	font-size: 35px;
+	font-weight: bolder;
+	color: #000;
+	margin-top: 5px;
+	text-shadow: 1px 1px;
+}
+
+button.navbar-toggle {
+	border: 1px solid #fff;
+}
