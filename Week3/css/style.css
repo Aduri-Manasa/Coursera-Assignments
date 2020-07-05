@@ -1,12 +1,11 @@
-body {
-	font-size: 16px;
-	background-color: #fff;
+* {
+	box-sizing: border-box;
 }
 
-/*Header*/
-header {
+header {							/*Header*/
 	border-bottom: 3px solid #fdea07;
 }
+
 #header-nav {
 	background-color: #000000cc;
 	padding: 0;
@@ -14,13 +13,11 @@ header {
 
 .container {
 	max-width: 100%;
-	max-height: 100%;;
 }
 
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand h1 { 					/*Food, LLC Company Name*/
   font-family: Papyrus, sans-serif;
   color: #fdea07;
-  font-size: 1.8em;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
   margin: 8px 0px 0px 8px; 
@@ -29,24 +26,28 @@ header {
   text-decoration: none;
 }
 
-#navbarNav {
+.navbar-dark .navbar-toggler {		/*Button*/
+	border-color: rgba(255,255,255,0.70);
+}
+
+#navbarNav {						
 	background-color: #ccc;
 	max-width: 100%;
 	border: 3px solid #fdea07;
 	border-width: 3px 3px 0px;
 }
 
-#nav-list {
+#nav-list li {							/*Items List*/
   color: #951C49;
+  border-bottom: 1px solid #000;
 }
 
 #nav-list li:hover {
   background: #E7E7E7;
 }
 
-#main-content {
+#main-content {						/*Main Content of the Body*/
 	padding: 0;
-	background-color: #fff;
 }
 
 .jumbotron {
@@ -55,14 +56,13 @@ header {
 	background-color: #fff;
 }
 
-#page-heading {
+#page-heading {						/*Our Menu Heading*/
 	padding: 10px;
 	margin-bottom: 25px;
 }
 
-#text-section {
-	height: auto;
-	padding: 30px;
-	background-color: darkgrey;
+.col-12 {
+	background-color: #ccc;
+	font-style: italic;
+	padding-top: 10px;
 }
-
