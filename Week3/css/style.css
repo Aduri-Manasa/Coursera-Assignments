@@ -39,7 +39,10 @@ header {							/*Header*/
 
 #nav-list li {							/*Items List*/
   color: #951C49;
-  border-bottom: 1px solid #000;
+}
+
+li:nth-child(1), li:nth-child(2) {
+	border-bottom: 1px solid #000;
 }
 
 #nav-list li:hover {
